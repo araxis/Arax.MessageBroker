@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.4</Version>
+    <Authors>M.Alifallahi</Authors>
+    <Company>Mammut-Diesel</Company>
+    <Description>MammutNg.MessageBrokers.Nats.MediatR</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MammutNg.messageBrokers.Nats\MammutNg.MessageBrokers.Nats.csproj" />
+  </ItemGroup>
+
+</Project>

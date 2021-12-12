@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MammutNg.MessageBrokers.Nats</PackageId>
+    <AssemblyName>MammutNg.MessageBrokers.Nats</AssemblyName>
+    <RootNamespace>MammutNg.MessageBrokers.Nats</RootNamespace>
+    <Authors>M.Alifallahi</Authors>
+    <Company>Mammut-Diesel</Company>
+    <Description>cqrs bus implementation with nats(nats.io).</Description>
+    <Version>3.0.4</Version>
+    <PackageTags>messagebrokers,nats,broker,mediatr,cqrs</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="MammutNg" Version="2.0.1" />
+    <PackageReference Include="MammutNg.MessageBrokers.Contracts" Version="1.0.6" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+    <PackageReference Include="Sharpnado.TaskMonitor" Version="1.0.0" />
+    <PackageReference Include="STAN.Client" Version="0.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

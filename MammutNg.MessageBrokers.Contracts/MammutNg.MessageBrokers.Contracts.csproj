@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>M.Alifallahi</Authors>
+    <Company>Mammut-Diesel</Company>
+    <Description>MammutNg.MessageBrokers.Contracts</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.6</Version>
+  </PropertyGroup>
+
+</Project>
